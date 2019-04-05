@@ -1,13 +1,10 @@
-﻿using System
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System;
 using System.Collections;
 using System.IO;
 
 namespace C0730192
-class Program
+{ 
+    class Program
 {
     ArrayList Beowulf;
 
@@ -53,6 +50,7 @@ class Program
         return countSpaces;
 
     }
+       
 
 }
 }
