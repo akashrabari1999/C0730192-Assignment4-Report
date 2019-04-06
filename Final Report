@@ -1,0 +1,31 @@
+1) Total number of Lines in the file are 4016
+
+2) Total number of words are 37807
+
+3) Line number which contains both sea and fare are 
+118
+415
+519
+613
+1651
+1757
+2452
+2579
+
+4) Line numbers of Line which contains fare but not fare are 
+118
+415
+519
+541
+613
+795
+1034
+1651
+2452
+2579
+2630
+2744
+3388
+3475
+
+5) Average number of letters per word is 5.647923
