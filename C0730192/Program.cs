@@ -30,7 +30,7 @@ namespace C0730192
         {
 
             // Read file using StreamReader. Read file line by line
-            using (StreamReader file = new StreamReader("Beowulf.txt"))
+            using (StreamReader file = new StreamReader(@"U:\Users\730192\Beowulf.txt"))
             {
                 int counter = 0;
                 string ln;
@@ -60,7 +60,7 @@ namespace C0730192
         public void CountLinesReader()
         {
             long lineCounter = 0;
-            using (StreamReader fil = new StreamReader("Beowulf.txt"))
+            using (StreamReader fil = new StreamReader(@"U:\Users\730192\Beowulf.txt"))
             {
                 while (fil.ReadLine() != null)
                 {
@@ -72,7 +72,7 @@ namespace C0730192
         public void WordCounter()
         {
 
-            StreamReader reader = new StreamReader("Beowulf.txt");
+            StreamReader reader = new StreamReader(@"U:\Users\730192\Beowulf.txt");
             string script = reader.ReadToEnd();
 
             var text = script.Trim();
@@ -98,7 +98,7 @@ namespace C0730192
         public void Wordfinder()
         {
             int f = 0;
-            foreach (var line in File.ReadAllLines("Beowulf.txt"))
+            foreach (var line in File.ReadAllLines(@"U:\Users\730192\Beowulf.txt"))
             {
                 if (line.Contains("sea") && line.Contains("fare"))
                 {
@@ -113,7 +113,7 @@ namespace C0730192
             int f = 0;
             int m = 0;
             int n = 0;
-            foreach (var line in File.ReadAllLines("Beowulf.txt"))
+            foreach (var line in File.ReadAllLines(@"U:\Users\730192\Beowulf.txt"))
             {
                 if (line.Contains("fare"))
                 {
@@ -121,7 +121,7 @@ namespace C0730192
                 }
 
             }
-            foreach (var line in File.ReadAllLines("Beowulf.txt"))
+            foreach (var line in File.ReadAllLines(@"U:\Users\730192\Beowulf.txt"))
             {
                 if (line.Contains("war") && line.Contains("fare"))
                 {
